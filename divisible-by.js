@@ -8,3 +8,6 @@ const checkIfDivisibleBy = function(number) {
     return true;
   }
 };
+
+console.log(checkIfDivisibleBy(25));
+console.log(checkIfDivisibleBy(30));
