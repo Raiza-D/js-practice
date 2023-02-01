@@ -8,4 +8,4 @@ const evenNumbers = function(number) {
   }
 };
 
-console.log(evenNumbers(10));
+evenNumbers(10);
