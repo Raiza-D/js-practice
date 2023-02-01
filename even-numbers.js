@@ -7,3 +7,5 @@ const evenNumbers = function(number) {
     }
   }
 };
+
+console.log(evenNumbers(10));
