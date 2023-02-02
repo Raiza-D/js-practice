@@ -9,4 +9,7 @@ const filterNegNumbers = function(array) {
     }
   }
 
+  return filteredArray;
 };
+
+filterNegNumbers([10, 3, 2, -2, -10, -7]);
