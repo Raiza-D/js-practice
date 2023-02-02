@@ -4,7 +4,7 @@ const filterNegNumbers = function(array) {
   let filteredArray = [];
 
   for (const elem of array) {
-    if (elem < 0) {
+    if (elem > 0) {
       filteredArray.push(elem);
     }
   }
