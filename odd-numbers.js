@@ -7,3 +7,5 @@ const oddNumbers = function(limit) {
     }
   }
 };
+
+oddNumbers(100);
