@@ -11,3 +11,5 @@ const sumArraysExceptions = function(array) {
 
   return sum;
 };
+
+console.log(sumArraysExceptions([1, 2, 3, 4, "number"]));
