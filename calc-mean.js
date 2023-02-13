@@ -4,7 +4,8 @@ const mean = function(array) {
   let sum = 0;
 
   for (const elem of array) {
-    sum += sum;
+    sum += elem;
+    console.log(sum);
   }
 
   let avg = sum / array.length;
@@ -12,4 +13,4 @@ const mean = function(array) {
   return avg;
 };
 
-console.log(mean[4, 3, 9, 4, 5]);
+console.log(mean([4, 3, 9, 4, 5]));
