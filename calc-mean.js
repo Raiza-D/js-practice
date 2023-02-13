@@ -2,5 +2,8 @@
 
 const mean = function(array) {
 
+  
 
 };
+
+console.log(mean[4, 3, 9, 4, 5]);
