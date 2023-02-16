@@ -5,3 +5,5 @@ const unitConverter = function(kmValue) {
 
   return miles;
 };
+
+console.log(unitConverter(145));
