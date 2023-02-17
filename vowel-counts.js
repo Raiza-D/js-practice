@@ -2,4 +2,10 @@
 
 const vowelCount = function(words) {
 
+  const vowels = ["a", "e", "i", "o", "u"];
+
+
+
 };
+
+console.log("Crocodile Dundee");
