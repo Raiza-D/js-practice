@@ -4,7 +4,7 @@ const vowelCount = function(words) {
   const vowels = ["a", "e", "i", "o", "u"];
   let vowelCount = 0;
 
-  for (const letter of words) {
+  for (const letter of words.toLowerCase()) {
     if (vowels.includes(letter)) {
       vowelCount++;
     }
