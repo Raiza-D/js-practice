@@ -14,3 +14,4 @@ const vowelCount = function(words) {
 };
 
 console.log(vowelCount("Crocodile Dundee"));
+console.log(vowelCount("LALA LAND"));
