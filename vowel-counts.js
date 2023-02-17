@@ -8,4 +8,4 @@ const vowelCount = function(words) {
 
 };
 
-console.log("Crocodile Dundee");
+console.log(vowelCount("Crocodile Dundee"));
