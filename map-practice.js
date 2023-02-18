@@ -7,8 +7,9 @@ const bodiesOfWater = [
   "Pacific Ocean"
 ];
 
-const nameLength = function(array) {
-  array.map((water) => {
+const nameLength =
+  bodiesOfWater.map(water => {
     return water.length;
-  });
-};
+});
+
+console.log(nameLength);
