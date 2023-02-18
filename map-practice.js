@@ -6,3 +6,9 @@ const bodiesOfWater = [
   "Mediterranean Sea",
   "Pacific Ocean"
 ];
+
+const nameLength = function(array) {
+  array.map((water) => {
+    return water.length;
+  });
+};
