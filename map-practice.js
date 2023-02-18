@@ -1,0 +1,1 @@
+// Write a program prints the length of each word in a list.
