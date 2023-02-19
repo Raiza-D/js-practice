@@ -15,3 +15,4 @@ const lowestValue = function(arr) {
 };
 
 console.log(lowestValue([7, 10, 0, 1, 4]));
+console.log(lowestValue([-5, 0, 12, 6]));
