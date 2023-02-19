@@ -4,7 +4,14 @@ Returns: 0
 */
 
 const lowestValue = function(arr) {
+  let minValue = 0;
 
+  for (const num of arr) {
+    if (num < minValue) {
+      minValue = num;
+    }
+  }
+  return minValue;
 };
 
 console.log(lowestValue([7, 10, 0, 1, 4]));
