@@ -6,3 +6,5 @@ Returns: 0
 const lowestValue = function(arr) {
 
 };
+
+console.log(lowestValue([7, 10, 0, 1, 4]));
